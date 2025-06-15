@@ -10,9 +10,13 @@
   </head>
   <body class="container">
     <audio
+      id="miAudio"
       src="sound/SpotiDownloader.com - All I Need to Know - Thousand Foot Krutch.mp3"
-      autoplay
     ></audio>
+    <button id="play-btn" onclick="document.getElementById('miAudio').play()">
+      Escuchar canción
+    </button>
+
     <div id="lyrics"></div>
     <h1 class="titulo">
       Estas flores naranjas son un reflejo de la alegría que traes a mi vida.
